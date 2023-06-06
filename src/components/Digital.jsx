@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 const Digital = () => {
   return (
     <section className="bg_blue py-5">
-      <div className="container pt-lg-5 mt-lg-5">
+      <div className="container pt-lg-5 mt-lg-5 position-relative z_5">
         <Row>
           <Col
             lg={4}

@@ -2,14 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import bitcoin_logo from "../assets/img/bitcoin_logo.svg";
 import trade from "../assets/img/bit_trade.svg";
-import market from "../assets/img/market.svg";
+import market from "../assets/img/market.png";
 const Market = () => {
   return (
-    <section className="bg_dark_blue py-5 position-relative">
+    <section className="bg_dark_blue position-relative pb-lg-5 py-3 py-lg-0">
       <span className="position-absolute market_bg">
         <img src={market} alt="market" />
       </span>
-      <div className="container py-lg-5 position-relative z_5">
+      <div className="container py-lg-5 mb-lg-5 position-relative z_5">
         <div
           className="d-flex justify-content-center"
           data-aos="flip-down"

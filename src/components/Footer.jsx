@@ -3,14 +3,14 @@ import { Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section className="bg_blue py-5">
+    <section className="bg_blue py-3 py-lg-5">
       <div className="container">
-        <Row className=" d-flex flex-column-reverse flex-xl-row">
+        <Row className="d-flex flex-column-reverse flex-xl-row">
           <Col xl={8}>
             <Row>
               <Col
                 sm={4}
-                className=" d-none d-xl-block"
+                className="d-none d-xl-block"
                 data-aos="fade-right"
                 data-aos-duration="3000"
                 data-aos-delay="300"
@@ -64,7 +64,6 @@ const Footer = () => {
               </Col>
               <Col
                 sm={4}
-                className="text-center text-sm-start"
                 data-aos="fade-right"
                 data-aos-duration="3000"
                 data-aos-delay="600"
@@ -119,7 +118,6 @@ const Footer = () => {
               </Col>
               <Col
                 sm={4}
-                className="text-center text-sm-start"
                 data-aos="fade-right"
                 data-aos-duration="3000"
                 data-aos-delay="900"
@@ -160,7 +158,7 @@ const Footer = () => {
                       href="#"
                     >
                       Crypto API
-                    </a> 
+                    </a>
                   </li>
                   <li className="pt-3">
                     <a
@@ -175,7 +173,7 @@ const Footer = () => {
             </Row>
           </Col>
           <Col sm={4} className="d-xl-none" id="mycol_1">
-            <span className="d-flex align-items-center pointer justify-content-center justify-content-sm-start">
+            <span className="d-flex align-items-center pointer">
               <svg
                 width="40"
                 height="40"
@@ -224,7 +222,7 @@ const Footer = () => {
           </Col>
           <Col
             xl={4}
-            className="d-flex flex-column align-items-xl-end mt-4 mt-xl-0 text-center text-sm-start"
+            className="d-flex flex-column align-items-xl-end mt-4 mt-xl-0"
             id="mycol_2"
             data-aos="fade-right"
             data-aos-duration="3000"
@@ -235,7 +233,7 @@ const Footer = () => {
             </p>
             <span>
               <svg
-                className="pointer"
+                className="pointer visa_hover"
                 width="96"
                 height="64"
                 viewBox="0 0 96 64"
@@ -267,7 +265,7 @@ const Footer = () => {
                 </defs>
               </svg>
               <svg
-                className="ms-sm-4 ms-1 pointer"
+                className="ms-sm-4 ms-1 pointer visa_hover"
                 width="96"
                 height="64"
                 viewBox="0 0 96 64"
@@ -295,7 +293,7 @@ const Footer = () => {
                 />
               </svg>
               <svg
-                className="ms-sm-4 ms-1 pointer"
+                className="ms-sm-4 ms-1 pointer visa_hover"
                 width="96"
                 height="64"
                 viewBox="0 0 96 64"
@@ -334,7 +332,7 @@ const Footer = () => {
           </Col>
         </Row>
         <div
-          className="d-flex flex-column flex-sm-row justify-content-between pt-4 pt-xl-5 mt-xl-5 text-center text-sm-start align-items-center align-items-sm-start"
+          className="d-flex flex-column flex-sm-row justify-content-between pt-4 pt-xl-5 mt-xl-5"
           data-aos="flip-down"
           data-aos-duration="3000"
         >

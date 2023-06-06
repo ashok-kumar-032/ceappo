@@ -13,8 +13,8 @@ const Loading = () => {
       <div className="d-flex justify-content-center align-items-center min-vh-100 bg_effect">
         <span className="preloaderAnimation d-flex align-items-center pointer justify-content-center justify-content-sm-start">
           <svg
-            width="90"
-            height="90"
+            width="60"
+            height="60"
             viewBox="0 0 40 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Loading = () => {
               fill="white"
             />
           </svg>
-          <p className="mb-0 ps-3 ff_Inter fw_600 fs_4xl clr_white">CRAPPO</p>
+          <p className="mb-0 ps-3 ff_Inter fw_600 fs_2xl clr_white">CRAPPO</p>
         </span>
       </div>
     </div>

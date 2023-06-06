@@ -37,7 +37,7 @@ const Trade = () => {
     ],
   };
   return (
-    <div className="bg_trade">
+    <section className="bg_trade">
       <div className="container pb-lg-5 mb-lg-5">
         <div
           className="my_container"
@@ -57,7 +57,7 @@ const Trade = () => {
           </div>
         </div>
         <div
-          className="d-flex justify-content-center pt-lg-5 mt-3"
+          className="d-flex justify-content-center pt-lg-5 mt-5"
           data-aos="flip-down"
           data-aos-duration="3000"
         >
@@ -263,82 +263,9 @@ const Trade = () => {
               </button>
             </div>
           </div>
-          <div
-            className="p-3"
-            data-aos="fade-down"
-            data-aos-duration="3000"
-            data-aos-delay="1200"
-          >
-            <div className="bit_box p-3 py-5 d-flex flex-column align-items-center w-100 btn_hover">
-              <svg
-                width="80"
-                height="80"
-                viewBox="0 0 80 80"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="40" cy="40" r="40" fill="#C4C4C4" />
-                <g clip-path="url(#clip0_1_17807)">
-                  <path
-                    d="M78.8034 49.6733C73.459 71.1133 51.7368 84.1464 30.3275 78.8018C8.88683 73.4574 -4.14629 51.7361 1.19839 30.3271C6.54277 8.88708 28.2334 -4.14605 49.674 1.19864C71.0834 6.51177 84.1481 28.233 78.8034 49.6733Z"
-                    fill="url(#paint0_linear_1_17807)"
-                  />
-                  <path
-                    d="M59.0449 35.0159C59.8262 29.7034 55.7949 26.8284 50.2324 24.9221L52.0449 17.7034L47.6699 16.6096L45.9199 23.6409C44.7637 23.3596 43.5762 23.0784 42.3887 22.8284L44.1387 15.7659L39.7637 14.6721L37.9824 21.8596C37.0137 21.6409 36.0762 21.4221 35.1699 21.2034V21.1721L29.1074 19.6721L27.9512 24.3596C27.9512 24.3596 31.2012 25.1096 31.1387 25.1409C32.9199 25.5784 33.2324 26.7659 33.1699 27.7034L31.1074 35.9221C31.2324 35.9534 31.3887 35.9846 31.5762 36.0784C31.4199 36.0471 31.2637 36.0159 31.1074 35.9534L28.2324 47.4534C28.0137 47.9846 27.4512 48.7971 26.2324 48.4846C26.2637 48.5471 23.0449 47.7034 23.0449 47.7034L20.8574 52.7346L26.5762 54.1721C27.6387 54.4534 28.6699 54.7034 29.7012 54.9846L27.8887 62.2659L32.2637 63.3596L34.0762 56.1409C35.2637 56.4534 36.4512 56.7659 37.5762 57.0471L35.7949 64.2346L40.1699 65.3284L41.9824 58.0471C49.4824 59.4534 55.1074 58.8909 57.4512 52.1096C59.3574 46.6721 57.3574 43.5159 53.4199 41.4534C56.3262 40.7971 58.4824 38.8909 59.0449 35.0159ZM49.0137 49.0784C47.6699 54.5159 38.4824 51.5784 35.5137 50.8284L37.9199 41.1721C40.8887 41.9221 50.4512 43.3909 49.0137 49.0784ZM50.3887 34.9221C49.1387 39.8909 41.5137 37.3596 39.0449 36.7346L41.2324 27.9846C43.7012 28.6096 51.6699 29.7659 50.3887 34.9221Z"
-                    fill="white"
-                  />
-                </g>
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_1_17807"
-                    x1="39.9784"
-                    y1="-0.0189558"
-                    x2="39.9784"
-                    y2="79.9922"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#F9AA4B" />
-                    <stop offset="1" stop-color="#F7931A" />
-                  </linearGradient>
-                  <clipPath id="clip0_1_17807">
-                    <rect width="80" height="80" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <div className=" d-flex align-items-center pt-4">
-                <p className="mb-0 fw_700 fs_2xl ff_Rubik clr_blue">Bitcoin</p>
-                <p className="fw_500 fs_md ff_Rubik clr_grey opacity_07 ps-2 mb-0">
-                  BTC
-                </p>
-              </div>
-              <p className="fw_400 fs_sm ff_Rubik clr_grey pt-3 text-center">
-                Digital currency in which a record of transactions is
-                maintained.
-              </p>
-              {/* btn arrow */}
-              <button className="p-3 rounded-pill d-flex bg-white btn_arrow">
-                <span className="pt-1 ps-2 pe-4 d-none fw_500 ff_Rubik fs_md clr_white mb-0">
-                  Start mining
-                </span>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="16" cy="16" r="16" fill="white" />
-                  <path
-                    d="M14.4999 20.9999C14.3683 21.0007 14.2379 20.9755 14.116 20.9257C13.9942 20.8759 13.8834 20.8026 13.7899 20.7099C13.6962 20.617 13.6218 20.5064 13.571 20.3845C13.5203 20.2626 13.4941 20.1319 13.4941 19.9999C13.4941 19.8679 13.5203 19.7372 13.571 19.6154C13.6218 19.4935 13.6962 19.3829 13.7899 19.2899L17.0999 15.9999L13.9199 12.6899C13.7337 12.5026 13.6291 12.2491 13.6291 11.9849C13.6291 11.7207 13.7337 11.4673 13.9199 11.2799C14.0129 11.1862 14.1235 11.1118 14.2454 11.061C14.3672 11.0103 14.4979 10.9841 14.6299 10.9841C14.762 10.9841 14.8927 11.0103 15.0145 11.061C15.1364 11.1118 15.247 11.1862 15.3399 11.2799L19.1999 15.2799C19.3832 15.4669 19.4858 15.7182 19.4858 15.9799C19.4858 16.2417 19.3832 16.493 19.1999 16.6799L15.1999 20.6799C15.1102 20.7769 15.0021 20.855 14.882 20.91C14.7618 20.9649 14.632 20.9955 14.4999 20.9999Z"
-                    fill="#3671E9"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 export default Trade;

@@ -22,7 +22,7 @@ export const Check = () => {
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <div className="check_box d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mt-5">
+          <div className="check_box d-flex flex-column flex-lg-row justify-content-between align-items-center p-5 mt-lg-5 mt-3">
             <div className="d-flex check_input w_350">
               <input
                 type="text"

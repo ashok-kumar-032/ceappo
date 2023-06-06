@@ -6,7 +6,7 @@ import star_bg_effect_1 from "../assets/img/star_bg_effect_1.svg";
 
 const Start = () => {
   return (
-    <section className="start_bg_box py-5 position-relative">
+    <section className="start_bg_box py-lg-5 position-relative">
       <span className="star_bg_effect_1 position-absolute">
         <img src={star_bg_effect_1} alt="star_bg_effect_1" />
       </span>
@@ -18,7 +18,7 @@ const Start = () => {
           className="star_box p-sm-5 p-2 overflow-hidden position-relative"
           data-aos="flip-down"
           data-aos-duration="3000"
-          >
+        >
           <span className="position-absolute star_a_img">
             <img src={star_a} alt="star_a" />
           </span>

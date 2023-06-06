@@ -5,8 +5,8 @@ import grow_bg from "../assets/img/grow_bg.svg";
 
 const Grow = () => {
   return (
-    <section className="bg_dark_blue position-relative">
-      <span className="position-absolute grow_bg">
+    <section className="bg_dark_blue position-relative py-3 py-lg-5">
+      <span className="position-absolute grow_bg d-none d-lg-block">
         <img src={grow_bg} alt="grow_bg" />
       </span>
       <div className="container position-relative z_5">
@@ -22,7 +22,7 @@ const Grow = () => {
             <p className="fw_700 fs_2xl ff_Rubik clr_white mt-lg-4">
               Grow your profit and track your investments
             </p>
-            <p className="fw_400 fs_sm ff_Rubik clr_light_white max_w_400 py-3">
+            <p className="fw_400 fs_sm ff_Rubik clr_light_white max_w_400 py-lg-3">
               Use advanced analytical tools. Clear TradingView charts let you
               track current and historical profit investments.
             </p>

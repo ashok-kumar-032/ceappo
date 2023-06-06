@@ -34,7 +34,7 @@ function App() {
       <Grow />
       <Start />
       <Footer />
-      {/* <Loading /> */}
+      <Loading />
       <BackToTop />
     </div>
   );
